@@ -1,5 +1,7 @@
 # Git常用命令
 
+![alt text](image.png)
+
 ## Git的原理
 存储项目文件随时间变化的快照
 
