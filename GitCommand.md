@@ -2,7 +2,7 @@
 ![alt text](img/gitcommand.png)
 
 ## Git的原理
-存储项目文件随时间变化的快照
+存储项目随时间变化的快照
 
 ## git init 初始化
 开始跟踪当前文件夹的diff（变化）
