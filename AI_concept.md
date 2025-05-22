@@ -1,7 +1,8 @@
 # AI之五花八门的概念
 
-## AI, ML, DL & Data Science 之间的关系
-![alt text](image-1.png)
+## AI, ML, DL & Data Science之间的关系
+![alt text](img/ai_ml_dl_ds.png) 
+
 ### Artificial Intelligence(AI) 人工智能 
 有能像人类一样学习和推理能力的程序
 ### Machine Learning(ML) 机器学习
