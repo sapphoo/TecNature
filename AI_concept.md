@@ -1,4 +1,15 @@
 # AI之五花八门的概念
+
+## AI, ML, DL & Data Science 之间的关系
+![alt text](image-1.png)
+### Artificial Intelligence(AI) 人工智能 
+有能像人类一样学习和推理能力的程序
+### Machine Learning(ML) 机器学习
+无需明确编程也能够学习的算法
+### Deep Learning(DL) 深度学习
+机器学习的子集，其特点是人工神经网络从海量的数据中适应和学习
+### Data science 数据科学
+
 ## AI Agent
 
 Agents, are systems where LLMs dynamically direct their own processes and tool usage, maintaining control over how they accomplish tasks.（From:[anthropic官网——构建高效agents](https://www.anthropic.com/engineering/building-effective-agents)）
