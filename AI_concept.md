@@ -19,6 +19,12 @@ Agents是LLM动态指导自己的流程和工具使用，保持对他们完成�
 
 通俗来说，Agent就是模型基于环境反馈使用tool的一个系统。
 
+## Retrieval-Augmented Generation (RAG) 检索增强生成
+检索增强生成 （RAG） 将大型语言模型的强大功能与外部知识检索相结合，以生成更准确、更真实且与上下文相关的响应。RAG 的核心是“使用 LLM 回答用户查询，但答案基于从知识库中检索到的信息”。
+### RAG特点
+
+## Agentic RAG 代理RAG
+配备了检索功能的agent
 
 ![alt text](img/agent_flow.png)
 
