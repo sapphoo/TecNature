@@ -1,4 +1,4 @@
-# 第1天：AI/ML/DL 基础认知
+# Day1：AI/ML/DL 基础认知
 ## 相互关系
 ![alt text](../img/ai&ml&dl&ds.png)
 ## 历史演进
