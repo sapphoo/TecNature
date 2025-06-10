@@ -1,3 +1,4 @@
+# Define
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -45,5 +46,39 @@ class Net(nn.Module):
         return output
 
 
-net = Net()
-print(net)
+# net = Net()
+# print(net)
+
+import numpy as np
+
+# 激活函数 & 感知机模型
+def step_function(x):
+    return 1 if x > 0 else 0
+
+def perceptron(x, w, b):
+    total = np.dot(x, w) + b
+    return step_function(total)
+
+# 示例输入
+x = np.array([2.0, 0.5])
+# 权重和偏置
+w = np.array([0.5, 0.5])
+b = -0.7
+
+# output = perceptron(x, w, b)
+# print("输出结果:", output)
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(-10, 10, 100)
+
+def sigmoid(x): return 1 / (1 + np.exp(-x))
+def relu(x): return np.maximum(0, x)
+
+plt.plot(x, sigmoid(x), label="Sigmoid")
+plt.plot(x, relu(x), label="ReLU")
+plt.legend()
+plt.title("激活函数对比")
+plt.grid(True)
+plt.show()
