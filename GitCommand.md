@@ -5,6 +5,12 @@
 存储项目随时间变化的快照
 
 ## Git常用命令
+### git clone 克隆
+在github上面新建一个repository成功，并建立了readme.md之后，想要在本地文件夹里对repository进行编辑，并与github保持同步。
+```
+git clone [ssh地址/https地址]
+```
+
 ### git init 初始化
 开始跟踪当前文件夹的diff（变化）
 
