@@ -96,4 +96,12 @@ SSH config 里 IdentityFile 决定认证 key（推拉代码用）。
 Git 配置里 user.signingkey 决定签名 key（签 commit/tag 用）。
 两者可以完全不同，互不影响。
 
+## 提交代码之前需要配置
+还需要配置username和useremail
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
+
+
 
