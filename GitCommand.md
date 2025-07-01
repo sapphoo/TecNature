@@ -34,10 +34,15 @@ git clone [ssh地址/https地址]
 ```
 # 先同步拉取远程的内容
 git pull origin main
+
+# 如果修改的部分不冲突
+直接git pull，然后git push就行
+
 # 处理可能出现的冲突
 如果本地改动和远程改动涉及同一个文件、同一行，Git 会提示“冲突”（conflict）。
 打开冲突文件，按照 <<<<<<<, =======, >>>>>>> 标记手动合并内容。
 合并后，记得 git add 冲突文件，再 git commit。
+
 # 冲突解决后，push
 git push origin main
 
